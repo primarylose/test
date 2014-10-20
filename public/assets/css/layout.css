@@ -1,0 +1,274 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.3em;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "museo-sans", Arial, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: 300;
+}
+.header{
+	text-align: right;
+}
+.header .topNav {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.header .topNav .page-134 {
+    background-image: url('../img/bc-ico-international-off.jpg');
+}
+.header .logo {
+    float: none; 
+}
+.header .logo img {
+  	margin: 10px 0 5px 75px; 
+}
+.header .logo {
+    float: left;
+    margin: 0; 
+}
+	.header .logo img {
+    margin: 11px 0 11px; 
+}
+.header .menuTop {
+    position: relative;
+    display: inline-block;
+    margin: 29px 0px 0px;
+}
+.header .topNav .page-134, .header .topNav .page-135, .header .topNav .page-16 {
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: 10px 47%;
+}
+.header .topNav .page-134 {
+    background-image: url('../img/bc-ico-international-off.jpg');
+}
+.header .topNav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 15px 10px;
+    font-weight: 500;
+}
+.header .menuTop .searchTop {
+    position: absolute;
+    top: 3px;
+    right: 35px;
+    width: 0px;
+    background-color: #FFF;
+    transition: width 0.3s ease 0s;
+    overflow: hidden;
+}
+.leftBar{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 200px;
+	overflow: auto;
+	transition: all 0.3s linear 0s;
+	z-index: 50;
+}
+.mainContent {
+    position: relative;
+	margin-left: 200px;
+	transition: margin 0.3s linear 0s;
+	/*background: url('../img/ombre-repete.jpg') repeat-y scroll 0px 0px transparent;*/
+}
+.mainContent {
+    position: relative;
+    z-index: 10;
+}
+.hometitle {
+    text-align: center;
+    position: relative;
+}
+.hometitle .hometitleContent {
+    padding-bottom: 80px;
+    min-height: 360px;
+}
+.hometitle .hometitleContent {
+    position: relative;
+    z-index: 20;
+}
+.hometitle .h2-like {
+    padding-top: 220px;
+    margin: 0px 0px 60px;
+    font-size: 7em;
+    font-weight: 100;
+    line-height: 0.7;
+    color: #FFF;
+}
+.hometitle .subtitle {
+    font-size: 4rem;
+    font-weight: 300;
+}
+.hometitle .link a {
+    display: inline-block;
+    border: 1px solid #FFF;
+    padding: 12px 20px;
+    color: #FFF;
+}
+button, a {
+    text-decoration: none;
+    color: #F8612E;
+}
+.hometitle .link {
+    font-size: 1.8em;
+    font-weight: 100;
+    margin: 50px 0px;
+}
+.js .hometitle .next {
+    bottom: -20px;
+    opacity: 0;
+}
+.hometitle .next {
+	display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    left: 0px;
+    margin: 0px;
+    color: #FFF;
+    font-size: 2.4em;
+    font-weight: 300;
+    cursor: pointer;
+}
+.hometitle .next span {
+    display: inline-block;
+    padding-right: 30px;
+    background: url('../img/fleche-engagements.png') no-repeat scroll right center transparent;
+    animation: 6s ease 0s normal none infinite oscilate;
+}
+.hometitle .fade, .hometitle .background {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-size: cover;
+}
+.hometitle .fade {
+    z-index: 10;
+}
+.engagements {
+    margin-bottom: 60px;
+    background-color: #FCF9F5;
+}
+.engagements .block {
+    padding: 210px 0px 5px;
+    background-position: left top;
+}
+.engagements a {
+    display: block;
+}
+.engagements .block:hover {
+    padding: 200px 0px 15px;
+}
+.engagements .block:nth-child(1) h3, .engagements .block:nth-child(1) .h3-like {
+    background-color: #008C35;
+}
+.engagements .block:nth-child(2) h3, .engagements .block:nth-child(2) .h3-like {
+    background-color: #84C442;
+}
+.engagements .block:nth-child(3) h3, .engagements .block:nth-child(3) .h3-like {
+    background-color: #F7A324;
+}
+.engagements .block:nth-child(4) h3, .engagements .block:nth-child(4) .h3-like {
+    background-color: #F9D542;
+}
+.engagements h3 .blockTitle, .engagements h3 .h3-like, .engagements h3 .blockText, .engagements h3 .h3-like {
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+}
+.engagements h3 .blockTitle, .engagements h3 .h3-like {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.engagements h3, .engagements .h3-like {
+    position: relative;
+    margin: 0px;
+    padding: 30px;
+    min-height: 100px;
+    font-size: 2.2em;
+    color: #FFF;
+}
+.engagements h3 .blockTitle, .engagements h3 .h3-like, .engagements h3 .blockText, .engagements h3 .h3-like {
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+}
+.engagements h3 .blockText, .engagements h3 .h3-like {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.engagements h3 .blockLink, .engagements h3 .h3-like {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.1s ease 0s;
+}
+.column-25, .columns.columnsCentered .column-30-centre, #tools .columnsCentered.page {
+    width: 25%;
+}
+.column, .js .classeur .sheet, .tx-in-faq .infos {
+    display: inline-block;
+    vertical-align: top;
+}
+.page {
+    width: 920px;
+    max-width: 100%;
+    margin: auto;
+	padding: 0px 50px;
+	width: 920px;
+}
+h1 {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+h2, .h2-like {
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 50px 0px;
+    line-height: 1em;
+}
+h3, .h3-like {
+    font-size: 2.7em;
+    line-height: 1.4em;
+    font-weight: 300;
+    margin: 25px 0px;
+}
+.header .topNav .sep {
+    padding: 0px;
+    width: 1px;
+    height: 11px;
+    background: url('../img/sep_topmenu.gif') no-repeat scroll 50% 50% transparent;
+}
+td, li {
+    line-height: 1.5em;
+}
+li {
+    margin: 5px 0px;
+}
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
+    font-size: 1.6em;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+h1, .h1-like, .timelineNav li .timelineTitle, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like {
+    line-height: 1em;
+}
