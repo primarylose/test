@@ -25,7 +25,7 @@
 	      	<div id="header" class="header">
 		        <div class="page">
 		             <!--Header-->
-		             <h1 class="logo"><a href="#" target="_self"><img src="public/image/THAIAC2_hires.jpg" width="215" height="55" alt="Dummy Generic"></a></h1>
+		             <h1 class="logo"><a href="#" target="_self"><img src="<?php echo asset('assets/image/THAIAC2_hires.jpg');?>" width="185" height="80" alt="Dummy Generic"></a></h1>
 
 		             <!--topNav-->
 		             <div class="menuTop">
@@ -39,14 +39,14 @@
 		    </div>
 			<div id="c3172" class="csc-default">
 				<div class="hometitle">
-					<div class="hometitleContent" style="height: 100%;">
+					<div class="hometitleContent">
 						<p class="h2-like">Well living<br>
 							<span class="subtitle">through vegetable products</span>
 						</p>
 						<h2 class="link">
 							<a href="en/group/task.html">Our vision</a>
 						</h2>
-						<h2 class="next" style="bottom: 15px; opacity: 1;">
+						<h2 class="next">
 							<span>Our commitments</span>
 						</h2>
 					</div>
@@ -59,19 +59,19 @@
 			<div id="c3173" class="csc-default">
 				<div class="engagements">
 					<div class="columns desactivateMargins">
-						<div class="block column column-25" style="background-image: url(/uploads/skinFlex/engagements/bc-imgbloc1_01.jpg)">
-							<a href="en/sustainable-development/agricultural-production.html" style="height: auto;">
+						<div class="block column column-25" style="background-image: url(<?php echo asset('assets/image/bc-imgbloc1_01.jpg');?>)">
+							<a href="en/sustainable-development/agricultural-production.html">
 								<h3><span class="blockTitle">Respecting</span><span class="blockText">the planet and our social commitments</span><span class="blockLink"><span>More</span></span></h3>
 							</a>
 						</div>
-						<div class="block column column-25" style="background-image: url(/uploads/skinFlex/engagements/bc-imgbloc2_01.jpg)">
-							<a href="en/careers/our-vision.html" style="height: auto;"><h3><span class="blockTitle">Encouraging</span><span class="blockText">the development of our men and women</span><span class="blockLink"><span>More</span></span></h3></a>
+						<div class="block column column-25" style="background-image: url(<?php echo asset('assets/image/bc-imgbloc2_01.jpg');?>)">
+							<a href="en/careers/our-vision.html"><h3><span class="blockTitle">Encouraging</span><span class="blockText">the development of our men and women</span><span class="blockLink"><span>More</span></span></h3></a>
 						</div>
-						<div class="block column column-25" style="background-image: url(/uploads/skinFlex/engagements/bc-imgbloc3_01.jpg)">
-							<a href="en/our-vegetables/bonduelle.html" style="height: auto;"><h3><span class="blockTitle">Developing</span><span class="blockText">our brands and vegetables in all their forms</span><span class="blockLink"><span>More</span></span></h3></a>
+						<div class="block column column-25" style="background-image: url(<?php echo asset('assets/image/bc-imgbloc3_01.jpg');?>)">
+							<a href="en/our-vegetables/bonduelle.html"><h3><span class="blockTitle">Developing</span><span class="blockText">our brands and vegetables in all their forms</span><span class="blockLink"><span>More</span></span></h3></a>
 						</div>
-						<div class="block column column-25" style="background-image: url(/uploads/skinFlex/engagements/bc-imgbloc4.jpg)">
-							<a href="en/group/organization.html" style="height: auto;"><h3><span class="blockTitle">Ensuring</span><span class="blockText">our organization is customer-oriented</span><span class="blockLink"><span>More</span></span></h3></a>
+						<div class="block column column-25" style="background-image: url(<?php echo asset('assets/image/bc-imgbloc4.jpg');?>)">
+							<a href="en/group/organization.html"><h3><span class="blockTitle">Ensuring</span><span class="blockText">our organization is customer-oriented</span><span class="blockLink"><span>More</span></span></h3></a>
 						</div>
 					</div>
 				</div>
